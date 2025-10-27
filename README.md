@@ -31,6 +31,10 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 
 ## Quick Start
 
+### Development Mode
+export NODE_ENV=development
+npm install
+npm run dev
 ### Production Mode
 ```bash
 export DEPLOY_ENV=production
